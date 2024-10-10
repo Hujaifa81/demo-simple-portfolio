@@ -32,6 +32,7 @@ header button {
     color: white;
     font-size: 20px;
     font-weight: 600;
+    border-radius: 8px;
 }
 
 .subtitle {
@@ -189,4 +190,34 @@ header button {
 }
 .css{
     background:rgba(0, 76, 232, 0.05);
+}
+.next-target-container{
+    max-width: 1000px;
+    margin: 70px auto;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+#next-target-card-container{
+display: flex;
+flex-direction: column;
+gap:20px;
+}
+.next-target-single-card{
+display: flex;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+gap: 25px;
+padding: 25px
+}
+.target-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: start;
 }
