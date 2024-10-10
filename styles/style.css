@@ -177,21 +177,26 @@ header button {
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
 }
-#skill-card-container{
+
+#skill-card-container {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap:10px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
 }
-.single-skill-card>p{
+
+.single-skill-card>p {
     text-align: start;
 }
-.javascript{
+
+.javascript {
     background: rgba(255, 223, 0, 0.05);
 }
-.css{
-    background:rgba(0, 76, 232, 0.05);
+
+.css {
+    background: rgba(0, 76, 232, 0.05);
 }
-.next-target-container{
+
+.next-target-container {
     max-width: 1000px;
     margin: 70px auto;
     background: rgb(255, 255, 255);
@@ -201,23 +206,83 @@ header button {
     align-items: center;
     gap: 30px;
 }
-#next-target-card-container{
-display: flex;
-flex-direction: column;
-gap:20px;
+
+#next-target-card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
-.next-target-single-card{
-display: flex;
-border: 1px solid rgba(13, 19, 33, 0.15);
-border-radius: 16px;
-background: rgb(255, 255, 255);
-gap: 25px;
-padding: 25px
+
+.next-target-single-card {
+    display: flex;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    gap: 25px;
+    padding: 25px
 }
-.target-text{
+
+.target-text {
     display: flex;
     flex-direction: column;
     gap: 10px;
     justify-content: center;
     align-items: start;
+}
+
+.support-container {
+    max-width: 1000px;
+    margin: 70px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 55px 40px;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1);
+    background-image: url('../assets/handshake.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+.support-container h1{
+    color: rgb(255, 255, 255);
+font-size: 28px;
+font-weight: 700;
+}
+.support-container p{
+    color: rgb(255, 255, 255);
+}
+input[type='text']{
+    width: 500px;
+    height: 50px;
+    padding: 15px 16px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+
+}
+input::placeholder{
+    color: rgba(13, 19, 33, 0.4);
+font-size: 14px;
+font-weight: 400;
+}
+.support-container button{
+    width: 100px;
+    padding: 10px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+background: rgb(255, 255, 255);
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 600;
+
+}
+.support-container>div{
+    display: flex;
+    gap:10px;
+    
 }
