@@ -1,1 +1,1 @@
-Live link:https://meek-bubblegum-d5eabb.netlify.app/
+Live link:https://hujaifa81.github.io/simple-portfolio-demo/
