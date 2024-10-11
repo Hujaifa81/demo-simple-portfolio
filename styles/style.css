@@ -10,7 +10,7 @@ body {
 }
 nav{
     max-width: 1280px;
-    height: 90px;
+    height: 75px;
     padding: 19px 60px ;
     
     
@@ -45,28 +45,32 @@ align-items: center;
 
 header {
     max-width: 1280px;
-    max-height: calc(100vh - 140px);
+    max-height: calc(100vh - 80px);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-image: url('../assets/Hero-bg.png');
-    gap: 24px;
+    gap: 17px;
+    padding-top: 40px;
+    
+    
 }
 
 header h1 {
-    font-size: 48px;
+    font-size: 27px;
     font-weight: 800;
     text-align: center;
 }
 
 header button {
     background-color: rgb(13, 19, 33);
-    padding: 20px 22px;
+    padding: 18px 22px;
     color: white;
     font-size: 20px;
     font-weight: 600;
     border-radius: 8px;
+    margin-bottom: 45px;
 }
 
 .subtitle {
@@ -84,10 +88,10 @@ header button {
     flex-direction: column;
     border-radius: 16px;
     background-color: rgba(13, 19, 33, 0.02);
-    padding: 76px 92px;
+    padding: 50px 92px;
     justify-content: center;
     align-items: center;
-    gap: 32px;
+    gap: 25px;
 }
 
 .feature-container h1 {
@@ -168,7 +172,7 @@ opacity: 0.7;
 
 .inspiration-container {
     max-width: 1000px;
-    margin: 70px auto;
+    margin: 60px auto;
     background: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
@@ -206,7 +210,13 @@ opacity: 0.7;
     align-items: center;
     gap: 30px;
 }
-
+.target-container h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+}
 .single-skill-card {
     display: flex;
     justify-content: center;
@@ -246,7 +256,13 @@ opacity: 0.7;
     align-items: center;
     gap: 30px;
 }
-
+.next-target-container h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+}
 #next-target-card-container {
     display: flex;
     flex-direction: column;
